@@ -1,6 +1,8 @@
 var vendingMachine = function() {
 	return {
-		messageOnScreen: "Hello!! Quench your thirst"
+		messageOnScreen: "Hello!! Quench your thirst",
+		takeMoneyAndGiveSoda: function(money){
+		}
 	};
 }
 
