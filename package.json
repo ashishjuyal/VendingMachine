@@ -4,7 +4,7 @@
   "description": "Vending machine - some more tdd fun",
   "main": "index.js",
   "scripts": {
-    "test": "./node_modules/.bin/jasmine-node spec"
+    "test": "./node_modules/.bin/jasmine-node --verbose --junitreport spec"
   },
   "repository": {
     "type": "git",
