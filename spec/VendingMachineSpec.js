@@ -10,4 +10,7 @@ describe("As a thirsty bastard I want to buy a can of soda so that I can fix my 
 	it("should return soda when money is inserted in the machine", function() {
 		expect(vendingMachine.takeMoneyAndGiveSoda(1)).toBe(1);
 	});
+	it("should return nothing when money is NOT inserted in the machine", function() {
+		expect(vendingMachine.takeMoneyAndGiveSoda()).toBe(undefined);
+	});
 });
