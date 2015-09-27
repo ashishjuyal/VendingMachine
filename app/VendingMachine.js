@@ -1,6 +1,6 @@
 var vendingMachine = function() {
 	return {
-		messageOnScreen: ""
+		messageOnScreen: "Hello!! Quench your thirst"
 	};
 }
 
