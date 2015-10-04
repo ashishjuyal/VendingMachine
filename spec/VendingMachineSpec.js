@@ -1,17 +1,2 @@
-var vendingMachine = require('../app/VendingMachine.js')();
-
-describe("Vending Machine", function() {
-	it("should be able to display a hello message on the screen", function() {
-		expect(vendingMachine.messageOnScreen).toBe("Hello!! Quench your thirst");
-	});
-});
-
 describe("As a thirsty bastard I want to buy a can of soda so that I can fix my thirst", function() {
-	it("should return soda when money is inserted in the machine", function() {
-		var sodaCan = { sodaType: 'Coke', quantity: 1 };
-		expect(vendingMachine.takeMoneyAndGiveSoda(1, 'Coke')).toEqual(sodaCan);
-	});
-	it("should return nothing when money is NOT inserted in the machine", function() {
-		expect(vendingMachine.takeMoneyAndGiveSoda()).toBe(undefined);
-	});
 });
